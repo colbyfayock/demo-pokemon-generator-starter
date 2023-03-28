@@ -27,7 +27,7 @@ const Card = ({ attributes = POKEMON_ATTRIBUTES, image = {} }) => {
           </span>
         </span>
         <span className={styles.cardImage}>
-          <img src={image?.url} />
+          {image?.url && <img src={image.url} />}
         </span>
         <span className={styles.cardAttributes}>
           { attributes?.category } Pokemon. Ht: { attributes?.lengthInches }", WT: {attributes?.weightPounds?.toFixed(2)} lbs.
