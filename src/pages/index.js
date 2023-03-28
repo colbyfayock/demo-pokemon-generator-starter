@@ -25,9 +25,7 @@ export default function Home() {
           <div className={styles.card}>
             <Card />
             <h2>Backstory</h2>
-            <p>
-            Legend has it that Floramander was created when a rare Charmander encountered a magical garden. The garden infused the Charmander with the power of nature, creating Floramander.
-            </p>
+            <p>Backstory</p>
           </div>
           <Form className={styles.form}>
             <h2>Create a new Pokémon!</h2>
